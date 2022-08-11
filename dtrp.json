@@ -1,0 +1,182 @@
+{
+  "uuid": "d6ab3ae4-d6bb-470c-98e0-9051fec378e9",
+  "lastMigration": 22,
+  "name": "DTRP",
+  "endpointPrefix": "api/v1",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "55c2cfa8-1cdf-4417-81ef-3433b15bd8f9",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "vacancies",
+      "responses": [
+        {
+          "uuid": "ddcac502-5eb0-421f-8819-b91d6a65dcc8",
+          "body": "{\r\n    \"current_page\": 1,\r\n    \"data\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"opening_at\": \"2017-01-21 07:44:26\",\r\n            \"description\": \"Omnis fuga sed qui quisquam facere. Qui modi voluptatibus aut beatae dolorem adipisci voluptatem. Explicabo quis corrupti et officia non architecto. Rerum quas sed asperiores vel.\",\r\n            \"role_id\": \"1\",\r\n            \"role\": {\r\n                \"id\": \"1\",\r\n                \"name\": \"Senior Software Programmer - Backend Engineer\",\r\n                \"code\": \"SRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"2\",\r\n            \"opening_at\": \"1979-07-29 01:35:54\",\r\n            \"description\": \"Quia doloremque natus et quia. Non et consequatur voluptatem nihil ut ut nemo. Distinctio ratione enim est explicabo consequuntur nihil.\",\r\n            \"role_id\": \"2\",\r\n            \"role\": {\r\n                \"id\": \"2\",\r\n                \"name\": \"Junior Software Programmer - Backend Engineer\",\r\n                \"code\": \"JRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"3\",\r\n            \"opening_at\": \"1975-09-14 05:24:51\",\r\n            \"description\": \"Id aliquid voluptas incidunt. Rem praesentium exercitationem molestiae quod facilis neque.\",\r\n            \"role_id\": \"3\",\r\n            \"role\": {\r\n                \"id\": \"3\",\r\n                \"name\": \"QA Engineer\",\r\n                \"code\": \"QAE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"4\",\r\n            \"opening_at\": \"1979-01-26 12:54:39\",\r\n            \"description\": \"Minima repudiandae necessitatibus alias et. Doloribus suscipit velit voluptas dignissimos. Facilis rerum tenetur consequatur deserunt totam omnis.\",\r\n            \"role_id\": \"4\",\r\n            \"role\": {\r\n                \"id\": \"4\",\r\n                \"name\": \"QA Analyst\",\r\n                \"code\": \"QAA\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"5\",\r\n            \"opening_at\": \"1989-10-02 12:30:13\",\r\n            \"description\": \"Voluptas quis qui ut repellendus totam. Voluptas culpa illo qui. Laborum asperiores veniam neque vel beatae.\",\r\n            \"role_id\": \"5\",\r\n            \"role\": {\r\n                \"id\": \"5\",\r\n                \"name\": \"DevOps/SRE Engineer\",\r\n                \"code\": \"DEVOPS\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        }\r\n    ],\r\n    \"first_page_url\": \"http://localhost:8088/api/v1/vacancies?page=1\",\r\n    \"from\": 1,\r\n    \"last_page\": 5,\r\n    \"last_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"links\": [],\r\n    \"next_page_url\": \"http://localhost:8088/api/v1/vacancies?page=2\",\r\n    \"path\": \"http://localhost:8088/api/v1/vacancies\",\r\n    \"per_page\": 5,\r\n    \"prev_page_url\": null,\r\n    \"to\": 5,\r\n    \"total\": 21\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        },
+        {
+          "uuid": "b858465d-51ae-4013-a35c-7d23cea55b83",
+          "body": "{\r\n    \"current_page\": 1,\r\n    \"data\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"opening_at\": \"2017-01-21 07:44:26\",\r\n            \"description\": \"Omnis fuga sed qui quisquam facere. Qui modi voluptatibus aut beatae dolorem adipisci voluptatem. Explicabo quis corrupti et officia non architecto. Rerum quas sed asperiores vel.\",\r\n            \"role_id\": \"1\",\r\n            \"role\": {\r\n                \"id\": \"1\",\r\n                \"name\": \"Senior Software Programmer - Backend Engineer\",\r\n                \"code\": \"SRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"2\",\r\n            \"opening_at\": \"1979-07-29 01:35:54\",\r\n            \"description\": \"Quia doloremque natus et quia. Non et consequatur voluptatem nihil ut ut nemo. Distinctio ratione enim est explicabo consequuntur nihil.\",\r\n            \"role_id\": \"2\",\r\n            \"role\": {\r\n                \"id\": \"2\",\r\n                \"name\": \"Junior Software Programmer - Backend Engineer\",\r\n                \"code\": \"JRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"3\",\r\n            \"opening_at\": \"1975-09-14 05:24:51\",\r\n            \"description\": \"Id aliquid voluptas incidunt. Rem praesentium exercitationem molestiae quod facilis neque.\",\r\n            \"role_id\": \"3\",\r\n            \"role\": {\r\n                \"id\": \"3\",\r\n                \"name\": \"QA Engineer\",\r\n                \"code\": \"QAE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"4\",\r\n            \"opening_at\": \"1979-01-26 12:54:39\",\r\n            \"description\": \"Minima repudiandae necessitatibus alias et. Doloribus suscipit velit voluptas dignissimos. Facilis rerum tenetur consequatur deserunt totam omnis.\",\r\n            \"role_id\": \"4\",\r\n            \"role\": {\r\n                \"id\": \"4\",\r\n                \"name\": \"QA Analyst\",\r\n                \"code\": \"QAA\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"5\",\r\n            \"opening_at\": \"1989-10-02 12:30:13\",\r\n            \"description\": \"Voluptas quis qui ut repellendus totam. Voluptas culpa illo qui. Laborum asperiores veniam neque vel beatae.\",\r\n            \"role_id\": \"5\",\r\n            \"role\": {\r\n                \"id\": \"5\",\r\n                \"name\": \"DevOps/SRE Engineer\",\r\n                \"code\": \"DEVOPS\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        }\r\n    ],\r\n    \"first_page_url\": \"http://localhost:8088/api/v1/vacancies?page=1\",\r\n    \"from\": 1,\r\n    \"last_page\": 5,\r\n    \"last_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"links\": [],\r\n    \"next_page_url\": \"http://localhost:8088/api/v1/vacancies?page=2\",\r\n    \"path\": \"http://localhost:8088/api/v1/vacancies\",\r\n    \"per_page\": 5,\r\n    \"prev_page_url\": null,\r\n    \"to\": 5,\r\n    \"total\": 21\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "1",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "c10e55c3-8845-465a-8f48-8b2e8c15d1bf",
+          "body": "{\r\n    \"current_page\": 2,\r\n    \"data\": [\r\n        {\r\n            \"id\": \"6\",\r\n            \"opening_at\": \"2017-01-21 07:44:26\",\r\n            \"description\": \"Omnis fuga sed qui quisquam facere. Qui modi voluptatibus aut beatae dolorem adipisci voluptatem. Explicabo quis corrupti et officia non architecto. Rerum quas sed asperiores vel.\",\r\n            \"role_id\": \"6\",\r\n            \"role\": {\r\n                \"id\": \"6\",\r\n                \"name\": \"Senior Software Programmer - Backend Engineer 2\",\r\n                \"code\": \"SRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"7\",\r\n            \"opening_at\": \"1979-07-29 01:35:54\",\r\n            \"description\": \"Quia doloremque natus et quia. Non et consequatur voluptatem nihil ut ut nemo. Distinctio ratione enim est explicabo consequuntur nihil.\",\r\n            \"role_id\": \"7\",\r\n            \"role\": {\r\n                \"id\": \"7\",\r\n                \"name\": \"Junior Software Programmer - Backend Engineer 2\",\r\n                \"code\": \"JRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"8\",\r\n            \"opening_at\": \"1975-09-14 05:24:51\",\r\n            \"description\": \"Id aliquid voluptas incidunt. Rem praesentium exercitationem molestiae quod facilis neque.\",\r\n            \"role_id\": \"8\",\r\n            \"role\": {\r\n                \"id\": \"8\",\r\n                \"name\": \"QA Engineer 2\",\r\n                \"code\": \"QAE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"9\",\r\n            \"opening_at\": \"1979-01-26 12:54:39\",\r\n            \"description\": \"Minima repudiandae necessitatibus alias et. Doloribus suscipit velit voluptas dignissimos. Facilis rerum tenetur consequatur deserunt totam omnis.\",\r\n            \"role_id\": \"9\",\r\n            \"role\": {\r\n                \"id\": \"9\",\r\n                \"name\": \"QA Analyst 2\",\r\n                \"code\": \"QAA\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"10\",\r\n            \"opening_at\": \"1989-10-02 12:30:13\",\r\n            \"description\": \"Voluptas quis qui ut repellendus totam. Voluptas culpa illo qui. Laborum asperiores veniam neque vel beatae.\",\r\n            \"role_id\": \"10\",\r\n            \"role\": {\r\n                \"id\": \"10\",\r\n                \"name\": \"DevOps/SRE Engineer 2\",\r\n                \"code\": \"DEVOPS\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        }\r\n    ],\r\n    \"first_page_url\": \"http://localhost:8088/api/v1/vacancies?page=1\",\r\n    \"from\": 6,\r\n    \"last_page\": 5,\r\n    \"last_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"links\": [],\r\n    \"next_page_url\": \"http://localhost:8088/api/v1/vacancies?page=3\",\r\n    \"path\": \"http://localhost:8088/api/v1/vacancies\",\r\n    \"per_page\": 5,\r\n    \"prev_page_url\": null,\r\n    \"to\": 10,\r\n    \"total\": 21\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "2",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "aadc3570-b921-4571-98a4-fbb92f6abb1d",
+          "body": "{\r\n    \"current_page\": 3,\r\n    \"data\": [\r\n        {\r\n            \"id\": \"11\",\r\n            \"opening_at\": \"2017-01-21 07:44:26\",\r\n            \"description\": \"Omnis fuga sed qui quisquam facere. Qui modi voluptatibus aut beatae dolorem adipisci voluptatem. Explicabo quis corrupti et officia non architecto. Rerum quas sed asperiores vel.\",\r\n            \"role_id\": \"11\",\r\n            \"role\": {\r\n                \"id\": \"11\",\r\n                \"name\": \"Senior Software Programmer - Backend Engineer 3\",\r\n                \"code\": \"SRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"12\",\r\n            \"opening_at\": \"1979-07-29 01:35:54\",\r\n            \"description\": \"Quia doloremque natus et quia. Non et consequatur voluptatem nihil ut ut nemo. Distinctio ratione enim est explicabo consequuntur nihil.\",\r\n            \"role_id\": \"12\",\r\n            \"role\": {\r\n                \"id\": \"12\",\r\n                \"name\": \"Junior Software Programmer - Backend Engineer 3\",\r\n                \"code\": \"JRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"13\",\r\n            \"opening_at\": \"1975-09-14 05:24:51\",\r\n            \"description\": \"Id aliquid voluptas incidunt. Rem praesentium exercitationem molestiae quod facilis neque.\",\r\n            \"role_id\": \"13\",\r\n            \"role\": {\r\n                \"id\": \"13\",\r\n                \"name\": \"QA Engineer 3\",\r\n                \"code\": \"QAE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"14\",\r\n            \"opening_at\": \"1979-01-26 12:54:39\",\r\n            \"description\": \"Minima repudiandae necessitatibus alias et. Doloribus suscipit velit voluptas dignissimos. Facilis rerum tenetur consequatur deserunt totam omnis.\",\r\n            \"role_id\": \"14\",\r\n            \"role\": {\r\n                \"id\": \"14\",\r\n                \"name\": \"QA Analyst 3\",\r\n                \"code\": \"QAA\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"15\",\r\n            \"opening_at\": \"1989-10-02 12:30:13\",\r\n            \"description\": \"Voluptas quis qui ut repellendus totam. Voluptas culpa illo qui. Laborum asperiores veniam neque vel beatae.\",\r\n            \"role_id\": \"15\",\r\n            \"role\": {\r\n                \"id\": \"15\",\r\n                \"name\": \"DevOps/SRE Engineer 3\",\r\n                \"code\": \"DEVOPS\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        }\r\n    ],\r\n    \"first_page_url\": \"http://localhost:8088/api/v1/vacancies?page=1\",\r\n    \"from\": 11,\r\n    \"last_page\": 5,\r\n    \"last_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"links\": [],\r\n    \"next_page_url\": \"http://localhost:8088/api/v1/vacancies?page=4\",\r\n    \"path\": \"http://localhost:8088/api/v1/vacancies\",\r\n    \"per_page\": 5,\r\n    \"prev_page_url\": null,\r\n    \"to\": 15,\r\n    \"total\": 21\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "3",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "a23203f2-c500-40e6-9b68-49c7836784ac",
+          "body": "{\r\n    \"current_page\": 4,\r\n    \"data\": [\r\n        {\r\n            \"id\": \"16\",\r\n            \"opening_at\": \"2017-01-21 07:44:26\",\r\n            \"description\": \"Omnis fuga sed qui quisquam facere. Qui modi voluptatibus aut beatae dolorem adipisci voluptatem. Explicabo quis corrupti et officia non architecto. Rerum quas sed asperiores vel.\",\r\n            \"role_id\": \"16\",\r\n            \"role\": {\r\n                \"id\": \"16\",\r\n                \"name\": \"Senior Software Programmer - Backend Engineer 4\",\r\n                \"code\": \"SRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"17\",\r\n            \"opening_at\": \"1979-07-29 01:35:54\",\r\n            \"description\": \"Quia doloremque natus et quia. Non et consequatur voluptatem nihil ut ut nemo. Distinctio ratione enim est explicabo consequuntur nihil.\",\r\n            \"role_id\": \"17\",\r\n            \"role\": {\r\n                \"id\": \"17\",\r\n                \"name\": \"Junior Software Programmer - Backend Engineer 4\",\r\n                \"code\": \"JRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"18\",\r\n            \"opening_at\": \"1975-09-14 05:24:51\",\r\n            \"description\": \"Id aliquid voluptas incidunt. Rem praesentium exercitationem molestiae quod facilis neque.\",\r\n            \"role_id\": \"18\",\r\n            \"role\": {\r\n                \"id\": \"18\",\r\n                \"name\": \"QA Engineer 4\",\r\n                \"code\": \"QAE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"19\",\r\n            \"opening_at\": \"1979-01-26 12:54:39\",\r\n            \"description\": \"Minima repudiandae necessitatibus alias et. Doloribus suscipit velit voluptas dignissimos. Facilis rerum tenetur consequatur deserunt totam omnis.\",\r\n            \"role_id\": \"19\",\r\n            \"role\": {\r\n                \"id\": \"19\",\r\n                \"name\": \"QA Analyst 4\",\r\n                \"code\": \"QAA\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        },\r\n        {\r\n            \"id\": \"20\",\r\n            \"opening_at\": \"1989-10-02 12:30:13\",\r\n            \"description\": \"Voluptas quis qui ut repellendus totam. Voluptas culpa illo qui. Laborum asperiores veniam neque vel beatae.\",\r\n            \"role_id\": \"20\",\r\n            \"role\": {\r\n                \"id\": \"20\",\r\n                \"name\": \"DevOps/SRE Engineer 4\",\r\n                \"code\": \"DEVOPS\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        }\r\n    ],\r\n    \"first_page_url\": \"http://localhost:8088/api/v1/vacancies?page=1\",\r\n    \"from\": 16,\r\n    \"last_page\": 5,\r\n    \"last_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"links\": [],\r\n    \"next_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"path\": \"http://localhost:8088/api/v1/vacancies\",\r\n    \"per_page\": 5,\r\n    \"prev_page_url\": null,\r\n    \"to\": 20,\r\n    \"total\": 21\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "4",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        },
+        {
+          "uuid": "d6a6461d-dc08-47c3-b35b-65cb086a5738",
+          "body": "{\r\n    \"current_page\": 5,\r\n    \"data\": [\r\n        {\r\n            \"id\": \"21\",\r\n            \"opening_at\": \"2017-01-21 07:44:26\",\r\n            \"description\": \"Omnis fuga sed qui quisquam facere. Qui modi voluptatibus aut beatae dolorem adipisci voluptatem. Explicabo quis corrupti et officia non architecto. Rerum quas sed asperiores vel.\",\r\n            \"role_id\": \"21\",\r\n            \"role\": {\r\n                \"id\": \"21\",\r\n                \"name\": \"Senior Software Programmer - Backend Engineer 5\",\r\n                \"code\": \"SRBE\",\r\n                \"division_id\": \"1\"\r\n            }\r\n        }\r\n    ],\r\n    \"first_page_url\": \"http://localhost:8088/api/v1/vacancies?page=1\",\r\n    \"from\": 21,\r\n    \"last_page\": 5,\r\n    \"last_page_url\": \"http://localhost:8088/api/v1/vacancies?page=5\",\r\n    \"links\": [],\r\n    \"next_page_url\": \"\",\r\n    \"path\": \"http://localhost:8088/api/v1/vacancies\",\r\n    \"per_page\": 5,\r\n    \"prev_page_url\": null,\r\n    \"to\": 21,\r\n    \"total\": 21\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "page",
+              "value": "5",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}
